@@ -5,13 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Page</title>
-    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="../styles/contact.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://kit.fontawesome.com/ae6f0c4401.css" crossorigin="anonymous">
 </head>
 <body class="body">
-    <header>
+    <header class="header">
+        <img src="../images/logo.png" alt="logo" class="logo">
+        <!--change layout, margins to big-->
+        <ul class="navtext">
+            <li><a href="../index.html" class="navtext1">Home</a></li>
+            <li><a href="gallery.html" class="navtext1">Gallery</a></li>
+            <li><a href="about us.html" class="navtext1">About Us</a></li>
+            <li><a href="contact.html" class="navtext2">Contact</a></li>
+        </ul>
+        <i class="fa-brands fa-instagram"></i>
+
     </header>
    <main class="screen">
         <form class="form" autocomplete="off">
@@ -21,15 +32,9 @@
                 <p>Tel: 012 345 678</p>
                 <p>Email: DJbooking@email.com</p>
             </div>
-            <label for="name" class="label"></label>
-            <!--above may not be required-->
             <input type="text" name="name" id="name" class="input" placeholder="Full Name" required autofocus>
-            <label for="email" class="label"></label>
-            <!--above may not be required-->
             <input type="email" name="email" id="email" class="input" placeholder="Email Address" required>
             <div class="select-wrapper">
-                <label for="select" class="label"></label>
-                <!--above may not be required-->
                 <select name="Occasion" class="input select" id="select">
                     <option value="" disabled selected>Event</option>
                     <option value="fetival">Festival</option>
@@ -46,10 +51,10 @@
             <button type="submit" class="button ">Submit</button>
         </form>
         <div>
-            <img src="images/contact.jpg" alt="party">
+            <img src="../images/contact.jpg" alt="party">
         </div>
    </main>
-   <footer>
+   <footer class="footer">
    </footer>
 </body>
 </html>
