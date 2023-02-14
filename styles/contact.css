@@ -7,28 +7,30 @@
 
 .header {
     display: flex;
-    flex-direction: row;
+    justify-content:space-around;
+    align-items:center;
+    /*flex-direction: row;*/
     max-width: 1920px;
-    width: 100%;
     min-height: 142px;
     background-color: black;
-    align-content: center;
 }
 
 .logo {
+    display: flex;
     max-width: 131.74px;
     max-height: 72.93px;
-    margin-top: 34px;
-    margin-left: 70px;
+    margin-top: 0px;
+    margin-left: 0px;
 }
 
 .navtext {
     display: flex;
-    flex-direction: row;
-    list-style-type: none; /* Remove bullets */
-    justify-content: center;
-    align-content: center;
-    
+    list-style-type: none; 
+    background-color: aquamarine;
+    justify-content: space-around;
+    min-width: 713px;
+    min-height: 58px;
+    padding-top: 28px;
 }
 
 a {
@@ -38,15 +40,6 @@ a {
 
 a:hover {
     color: #d8f2b8;
-}
-
-.fa-brands {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #d8f2b8;
-    align-self: flex-end;
-
 }
 
 .footer {
