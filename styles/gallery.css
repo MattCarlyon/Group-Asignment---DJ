@@ -1,5 +1,82 @@
+body {
+  padding: 0;
+  margin: 0;
+  color: #F5F5F5;
+}
+
+nav {
+  width: 100vw;
+  height: 142px;
+  background-color: #000000;
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.logo {
+  display: flex;
+  margin-left: 70px;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.logo-icon {
+  width: 132px;
+  height: 73px;
+}
+
+.logo-name {
+  font-family: 'Passion One', cursive;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #D8F2B8;
+}
+
+.navBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 30px;
+  margin-left: 400px;
+}
+
+.navBar-page {
+  display: flex;
+  gap: 45px;
+  margin-right: 20px;
+}
+
+.navBar-page_link {
+  color: #FFFFFF
+  ;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: center;
+  list-style-type: none;
+  color: #FFFFFF;
+}
+
+.navBar-FBicon, .navBar-IGicon {
+  scale: 1.2;
+}
 
 .fa-solid {
+  width: 20px;
   color: #D8F2B8;
 }
 
