@@ -106,6 +106,7 @@ li {
 main {
   margin-left: 120px;
   margin-top: 85px;
+  padding: 0;
 }
 
 main p {
@@ -141,4 +142,30 @@ main h3 {
   text-align: left;
   color: black;
 }
+
+.photo-container {
+  max-width: 1700;
+  width: 90%;
+  max-height: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-around;
+  gap: 5px;
+  margin-left: 0;
+  padding: 0;
+}
+
+img {
+  width: 33%;
+  height: auto;
+  border-radius: 0.5em;
+  position: relative;
+}
+
+img:hover {
+  opacity: 0.5;
+}
+
 
