@@ -71,6 +71,11 @@ li {
   color: #FFFFFF;
 }
 
+li a:hover {
+  color: #D8F2B8;
+  border-bottom: 2px solid #D8F2B8;
+}
+
 .icon-socialMedia{
   scale: 1.2;
 }
@@ -100,7 +105,7 @@ li {
   height: 100%;
   border: 2px solid #D8F2B8;
   border-radius: 50% 50%;
-  padding: 10px;
+  padding: 9.5px;
 }
 
 main {
