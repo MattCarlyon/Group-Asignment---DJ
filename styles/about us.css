@@ -1,7 +1,8 @@
 /*GENERAL*/
 
+
 body{
-    width: 100%;
+    margin: 0;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -9,9 +10,9 @@ body{
     line-height: 35px;
     /* or 175% */
     letter-spacing: 0.05em;
-    color: #66615F;
-    margin: 0;
+    color: #66615F; 
 }
+
 
 /*HEADER*/
 
@@ -44,11 +45,16 @@ header{
 .logo{
     max-width: 132px;
     min-height: 73px;
-    margin-left: 50px;
+    margin-left: 70px;
 }
 
 li{
     list-style: none;
+}
+
+.right-side{
+  display: flex;
+  gap: 43px;
 }
 
 .menu{
@@ -56,7 +62,7 @@ li{
     text-decoration: none;
     display: flex;
     gap: 43px;
-    margin-right: -300px;
+  
 }
 
 a{
@@ -78,8 +84,7 @@ i {
   }
 
   .menu-icons{
-    margin-right: 30px;
-  }
+    margin-right: 50px;  }
 
 
   .icons-hover:hover{
@@ -102,30 +107,34 @@ i {
 
 
   .container_one{
+    padding: 70px;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px black;
+    margin-bottom: 100px;
+  }
+
+  .center{
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 50px;
-    
   }
 
   .info{
-
-    width: 522px;
-    height: 410px;
+    width: 652px;
+    height: 467px;
     padding-right: 43px;
     text-align: justify;
   }
 
-
-
   .img-dj{
     width: 60%;
-    height: 60%;
-    padding-top: 200px;
-    align-self:baseline;
-
+    max-height: 657px;
+    margin-top: 73px;
   }
 
   h1{
