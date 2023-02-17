@@ -95,8 +95,8 @@ i {
  
   .fa-border{
     border-color:  #D8F2B8;
-    --fa-border-radius: 50%;
-    --fa-border-padding: 15px;
+    border-radius: 50%;
+    padding: 15px;
     text-align: center;
     line-height: 30px;
     width: 30px;
@@ -193,7 +193,7 @@ h3{
 
 .footer_container{
   background: black;
-  height: 126px;
+  min-height: 126px;
   display: flex;
   justify-content: space-between;
   align-items: center;
