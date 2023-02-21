@@ -59,8 +59,10 @@ a:hover {
     flex-direction: row;
     max-width: 1920px;
     width: 100%;
-    min-height: 142px;
+    min-height: 126px;
     background-color: black;
+    justify-content: center;
+    align-items: center;
 }
 
 h2 {
@@ -191,10 +193,13 @@ button {
 
     letter-spacing: 0.05em;
     background-color: #d8f2b8;
+    border-radius: 5px;
+    border-style: none;
 }
 
 .select {
     cursor: pointer;
+
 }
 
 .textarea {
@@ -207,6 +212,8 @@ button {
 
     letter-spacing: 0.05em;
     background-color: #d8f2b8;
+    border-radius: 5px;
+    border-style: none;
 }
 
 .fa-brands {
