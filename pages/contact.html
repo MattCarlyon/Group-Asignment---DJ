@@ -10,17 +10,27 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://kit.fontawesome.com/ae6f0c4401.css" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/ae6f0c4401.js" crossorigin="anonymous"></script>
 </head>
 <body class="body">
     <nav class="header">
-        <img src="../images/logo.png" alt="logo" class="logo">
+        <div class="logohead">
+            <img src="../images/logo.png" alt="logo" class="logo">
+            <img src="../images/Group 30.png" alt="logotext" class="logotext">
+        </div>
         <ul class="navtext">
             <li><a href="../index.html" class="navtext1">Home</a></li>
             <li><a href="gallery.html" class="navtext1">Gallery</a></li>
             <li><a href="about us.html" class="navtext1">About Us</a></li>
             <li><a href="contact.html" class="navtext2">Contact</a></li>
-            <h2><i class="fa-brands fa-facebook-f"></i></h2>
-            <h3><i class="fa-brands fa-instagram"></i></h3>
+            <span class="fa-stack fa-lg" style="color: #d8f2b8; font-size: 30px;">
+                <i class="fa-regular fa-circle fa-stack-2x"></i>
+                <i class="fa-brands fa-facebook-f fa-stack-1x"></i> 
+            </span>
+            <span class="fa-stack fa-lg"style="color: #d8f2b8; font-size: 30px;">
+                <i class="fa-regular fa-circle fa-stack-2x"></i>
+                <i class="fa-brands fa-instagram fa-stack-1x"></i>
+            </span>
         </ul>
     </nav>
    <main class="screen">
@@ -47,13 +57,14 @@
                 </select>
             </div>
             <textarea name="message" id="" cols="50" rows="8" placeholder="Your Message" class="textarea"></textarea>
-            <button type="submit" class="button ">Submit</button>
+            <button type="submit" class="button">Submit</button>
         </form>
         <div>
             <img src="../images/contact.jpg" alt="party">
         </div>
    </main>
    <footer class="footer">
+
    </footer>
 </body>
 </html>

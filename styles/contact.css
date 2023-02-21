@@ -11,7 +11,7 @@
     align-items:center;
     /*flex-direction: row;*/
     max-width: 1920px;
-    min-height: 142px;
+    max-height: 142px;
     background-color: black;
 }
 
@@ -19,18 +19,30 @@
     display: flex;
     max-width: 131.74px;
     max-height: 72.93px;
-    margin-top: 0px;
-    margin-left: 0px;
+    margin-right: 34px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.logotext {
+    display: flex;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.logohead {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .navtext {
     display: flex;
     list-style-type: none; 
-    background-color: aquamarine;
     justify-content: space-around;
+    align-items: center;
     min-width: 713px;
     min-height: 58px;
-    padding-top: 28px;
 }
 
 a {
@@ -142,6 +154,7 @@ button {
     height: 100%;
     border-radius: 50px;
     background-color: #d8f2b8;
+    border-style: none;
     font-size: 25px;
     margin-top: 33px;
     font-family: 'Inter', sans-serif;
@@ -152,6 +165,16 @@ button {
     /* or 175% */
     letter-spacing: 0.05em;
     cursor: pointer;
+}
+
+.button:hover {
+    background-color: #d8f2b894;
+}
+
+.button:active {
+    background-color: #d8f2b894;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
 
 .input {
@@ -185,3 +208,9 @@ button {
     letter-spacing: 0.05em;
     background-color: #d8f2b8;
 }
+
+.fa-brands {
+    font-size: 20px;
+    color: #d8f2b8;
+}
+
