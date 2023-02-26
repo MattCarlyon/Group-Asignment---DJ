@@ -80,6 +80,10 @@ li a:hover {
   scale: 1.2;
 }
 
+.icon-socialMedia:hover, .fa-solid:hover {
+  opacity: 0.5;
+}
+
 .fa-solid {
   width: 20px;
   color: #D8F2B8;
