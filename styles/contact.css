@@ -52,6 +52,7 @@ a {
 
 a:hover {
     color: #d8f2b8;
+    text-decoration: underline;
 }
 
 .footer {
@@ -221,3 +222,41 @@ button {
     color: #d8f2b8;
 }
 
+
+.icons1 {
+    border-radius: 50%;
+    border: 3px solid #d8f2b8;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.icons2 {
+    border-radius: 50%;
+    border: 3px solid #d8f2b8;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 22.5px;
+    padding-right: 22.5px;
+    margin-left: 20px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+}
+
+.icons1:hover {
+   color: #d8f2b894;
+   border-color: #d8f2b894;
+}
+
+.icons2:hover {
+    color: #d8f2b894;
+    border-color: #d8f2b894;
+ }
+ 
