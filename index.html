@@ -1,78 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        body {
+            background-image: url(images/ncbackground.jpg);
+            background-size: cover;
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+    </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>DJ</title>
-        <link rel="stylesheet" href="styles/index.css">
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Quicksand:wght@300&display=swap" rel="stylesheet">
-<style>
-    body {
-        font-family:'Inter', sans-serif;
-        }
-</style>
+    <title>Andoworld</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/landing.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Quicksand:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="wrapper">
-            <nav>
-                <div class="logo">
-                    <img class="logo.png" alt="" src="images/logo.png" />
-                </div>
-
-                <ul>
-                    <li>
-                        <a href="#">Gallery</a>  
-                    </li>
-
-                    <li> 
-                         <a href="#">Contact</a>
-                    </li>
-
-                    <li>
-                        <a href="#">About Us</a>
-                    </li>
-
-                    <li>
-                        <a href="#" class="btn">f</a>
-                    </li>
-
-                    <li>
-                        <a href="#" class="btn">ig</a>
-                    </li>
-                </ul>
-            </nav>
-            <!-- End of desktop navigation menu -->
-
-            <div class="hero-section">
-                <div class="left"> 
-                    <h1>Book a DJ</h1>
-                    <p>
-                        Andoworld is the platform for you to book a great DJ for your event. <br />
-                        Start by telling us about your event, and get prices suggestions from the DJs.
-                    </p>
-                    <a href="#" class="btn green">Book Us</a>
-                    <div class="right">
-                        <img src="images/dj.png" alt="dj">
-                    </div>
-                   </div>
-            </div>
-        </div>
+<header> 
+    <div class="prod-nav"><img src="/images/landinglogo.svg" alt="Logo"></div>
+    <div class="menu"></div>
+     <nav>
+            <ul class="header-menu">
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+     </nav>
+    <div class="header-buttons">
+        <a href="#"><button class="sign-up">Sign Up</button></a>
+    </div>    
     </header>
-
-    <!-- End of the header section-->
-
-    <div class="wrapper">
-    </div>
-    <b class="ml-title">Our DJ’s are experts to hire for!</b
-        ><b class="ml-subtitle">FOR THE LOVE OF HOUSE!</b>
-        <div class="ml-ssubtitle">
-            We have DJ’s in all fields of the music industry grade equipment
-            ready to tackle your projects.
+    <main>
+        <section class="header-text">
+        <div class="header_text-info">
+            <h1>Book a DJ now!</h1>
+            <p class="header-subtitle">Andoworld is the platform for you to book a DJ to your event! <br />
+                Start by telling us about your event, and get a free price suggestions from us.</p>
+    <div class="button_left">
+    <a href="#"><button class="browse">Browse artists</button></a>
+    </div>                     
         </div>
-    </div>
+        <div class="header_top-img">
+        <img class="image" src="/images/dj.png" alt="Djungle">
+        </div>
+    </section>  
+<section class="dj_section">
+    <div class="dj_section-info">
+        <p class="txt stitle">Popular DJ's this month</p>
+        <h2 class="dj_section-title">The three DJ's of apocalypse</h2>
+        <p class="txt">The three most popular DJ's are here to ravage your parties! </p>
+            <div class="JF">
+                <h4>Juul Zofi</h4>
+                <p class="txt">While most people enjoy a house, Juul Zofi brings the crazy 
+                    light & sound along too!</p>
+                </div>
+                <div class="SJ">
+                    <h4>Snus Janeba</h4>
+                    <p class="txt">The DJ who loves the underground techno concept
+                        also brings in the fresh mix of PHONK! </p>
+                    </div>
+                    <div class="LK">
+                    <h4>Lucky Loka</h4>
+                    <p class="txt">Do not mistake Lucky Loka for the water brand!
+                        This danish urban legend brings in the Electro Groove for a special electrified NIGHT! </p>
+                    </div>    
+                 </div>
+                 <img class="image" src="/images/dj.png" alt="Djungle">
+</section>
+</div>
 </body>
 </html>
