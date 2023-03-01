@@ -267,14 +267,7 @@ footer p {
 
 footer .icon-socialMedia {
   gap: 30px;
+  scale: 1.2;
 }
 
-/* to fix shape of FB icon's border in Footer */
-footer .fa-border-fb  {
-  padding-right: 7px;
-}
-/* to fix shape of IG icon's border in Footer */
-footer .fa-border-ig  {
-  padding: 9px;
-}
 
